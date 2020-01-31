@@ -89,6 +89,9 @@ if ( ! class_exists( 'DPUS_Hosted_Plugin_Screens', false ) ) {
 			$Plugin_Admin = Designink_Plugin_Update_Server::instance()->get_admin_module();
 
 			if ( $Github_Plugin->is_valid() ) {
+				wp_enqueue_media();
+				wp_enqueue_editor();
+
 				$plugins_api_data = $Plugin->get_plugins_api_meta()->export_meta();
 				$plugin_images_urls = $Plugin->get_plugin_images_meta()->export_resolved_meta();
 				$plugin_images_ids = $Plugin->get_plugin_images_meta()->export_meta();

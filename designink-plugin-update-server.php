@@ -3,7 +3,7 @@
  * Plugin Name: DesignInk Plugin Update Server
  * Plugin URI: https://designinkdigital.com/
  * Description: A proprietary WordPress solution provided by DesignInk Digital to manage your own, personal plugin repository, integrated with GitHub.
- * Version: 1.5.1
+ * Version: 1.5.2
  * Author: DesignInk Digital
  * Author URI: https://designinkdigital.com/
  * Text Domain: wporg
