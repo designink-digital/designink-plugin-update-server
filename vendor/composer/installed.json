@@ -1,0 +1,65 @@
+[
+    {
+        "name": "designink/designink-wp-framework",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/designink-digital/designink-wp-framework.git",
+            "reference": "1063ea600c6836a9c5133df93677f8457cead365"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/designink-digital/designink-wp-framework/zipball/1063ea600c6836a9c5133df93677f8457cead365",
+            "reference": "1063ea600c6836a9c5133df93677f8457cead365",
+            "shasum": ""
+        },
+        "time": "2020-01-30 01:46:14",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Niemiec",
+                "email": "kyle@designinkdigital.com"
+            }
+        ],
+        "description": "DesignInk Digital's internal framework for facilitating WordPress development."
+    },
+    {
+        "name": "designink/plugin-update-helper",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/designink-digital/plugin-update-helper.git",
+            "reference": "d845963077593a17bf7c961a025fa55a1038a766"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/designink-digital/plugin-update-helper/zipball/d845963077593a17bf7c961a025fa55a1038a766",
+            "reference": "d845963077593a17bf7c961a025fa55a1038a766",
+            "shasum": ""
+        },
+        "require": {
+            "designink/designink-wp-framework": "^1.0.1"
+        },
+        "time": "2020-01-31 05:03:29",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Niemiec",
+                "email": "kyle@designinkdigital.com"
+            }
+        ],
+        "description": "A small, importable framework for integrating a WordPress plugin with the DesignInk Plugin Update Server."
+    }
+]

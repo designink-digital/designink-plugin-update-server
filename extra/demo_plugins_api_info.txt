@@ -1,0 +1,59 @@
+stdClass Object
+(
+    [name] => String
+    [slug] => String
+    [version] => WP_Version
+    [author] => String
+    [author_profile] => URL_String
+    [contributors] => Array
+        (
+            [contrubutor-slug] => Array
+                (
+                    [profile] => URL_String
+                    [avatar] => URL_String
+                    [display_name] => String
+                )
+        )
+
+    [requires] => WP_Version
+    [tested] => WP_Version
+    [requires_php] => PHP_Version
+    [rating] => Number							// 0-100
+    ratings] => Array							// How many of each 1-5 star ratings you made
+        (
+            [5] => Number
+            [4] => Number
+            [3] => Number
+            [2] => Number
+            [1] => Number
+        )
+
+    [num_ratings] => Number
+    [support_threads] => Number
+    [support_threads_resolved] => Number
+    [active_installs] => Number
+    [last_updated] => Date_String						// Ex. 2019-05-27 6:57pm GMT
+    [added] => Date_String								// Ex. 2011-09-27
+    [homepage] => URL_String
+    [sections] => Array
+        (
+            [example section] => HTML_String
+            [changelog] => HTML_String					// Just don't forget to integrate this
+
+        )
+
+    [download_link] => URL_String
+
+    [versions] => Array
+        (
+            [WP_Version] => URL_String
+        )
+
+    [donate_link] => URL_String							// You either have this or contributors
+    [banners] => Array
+        (
+            [low] => URL_String
+            [high] => URL_String
+        )
+
+)

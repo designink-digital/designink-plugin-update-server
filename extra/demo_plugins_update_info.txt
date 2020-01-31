@@ -1,0 +1,24 @@
+stdClass Object
+(
+	[slug] => String
+	[plugin] => String									// foldername/filename.php
+	[new_version] => Version_String
+	[url] => URL_String									// Same as homepage from plugin data
+	[package] => URL_String								// The download URL
+	[icons] => Array
+		(
+			[2x] => URL_String
+			[1x] => URL_String
+		)
+
+	[banners] => Array
+		(
+			[2x] => URL_String
+			[1x] => URL_String
+		)
+
+	[banners_rtl] => Array								// Left blank for fun
+		(
+		)
+
+)

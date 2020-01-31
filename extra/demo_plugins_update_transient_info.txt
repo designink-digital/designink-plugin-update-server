@@ -1,0 +1,30 @@
+stdClass Object
+(
+	[slug] => String
+	[plugin] => String
+	[new_version] => Version_String
+	[url] => URL_String
+	[package] => URL_String
+	[icons] => Array
+		(
+			[2x] => URL_String
+			[1x] => URL_String
+		)
+
+	[banners] => Array
+		(
+			[2x] => URL_String
+			[1x] => URL_String
+		)
+
+	[banners_rtl] => Array
+		(
+		)
+
+	[tested] => Version_String
+	[requires_php] => Version_String
+	[compatibility] => stdClass Object
+		(
+		)
+
+)

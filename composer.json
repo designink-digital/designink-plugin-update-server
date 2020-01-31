@@ -1,0 +1,13 @@
+{
+	"name": "DesignInk Plugin Update Server",
+	"description": "A proprietary WordPress solution provided by DesignInk Digital to manage your own, personal plugin repository, integrated with GitHub.",
+	"license": "GPL-3.0",
+    "require": {
+        "designink/designink-wp-framework": "^1.0.1",
+		"designink/plugin-update-helper": "^1.0"
+	},
+	"authors": [{
+		"name": "Kyle Niemiec",
+		"email": "kyle@designinkdigital.com"
+	}]
+}
